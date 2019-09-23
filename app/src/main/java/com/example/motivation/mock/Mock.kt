@@ -11,7 +11,7 @@ fun Int.random():Int = Random().nextInt(this)
 class Mock {
     private val VALORES = MotivationConstantes.PHRASE_FILTER
     private val mListPhrases: List<Phrase> = listOf(
-        Phrase("O dia só termina quando acaba!",VALORES.HAPPY),
+        Phrase("O dia só termina quando acabar!",VALORES.HAPPY),
         Phrase("O Começo é o início do fim!",VALORES.SUN),
         Phrase("Só digo uma coisa, não vou dizer nada!",VALORES.SUN),
         Phrase("Ordinária, tududu pahhh!!!",VALORES.HAPPY),
